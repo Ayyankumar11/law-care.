@@ -1,12 +1,13 @@
 {
   "name": "lawcare-vercel",
   "version": "1.0.0",
-  "description": "LawCare — Full stack on Vercel Serverless",
+  "description": "LawCare — Full stack on Vercel (pure JS, no native deps)",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "uuid": "^9.0.1",
-    "@vercel/node": "^3.0.0",
-    "better-sqlite3": "^9.4.3"
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
